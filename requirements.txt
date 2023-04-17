@@ -1,3 +1,4 @@
+pycountry
 pandas
 altair
 seaborn
@@ -7,3 +8,4 @@ vega_datasets
 pmdarima
 matplotlib
 statsmodels
+
