@@ -205,7 +205,7 @@ def page_second():
     
     ###############################################################
     
-    st.write(f"### Distribution of occurrences of each indicator across different countries")
+    st.write(f"### Geographical Distribution of Drought Occurrences Among Various Countries")
     fig = px.choropleth(data_frame=df,
                     locations='Country',
                     locationmode='country names',
@@ -266,7 +266,7 @@ def page_second():
 
     df = pd.DataFrame({"Year": year_columns, "Percentage": percentages})
 
-    st.write(f"### Percentage Contribution of Each Year to the Total Number of Occurrences of the Indicator")
+    st.write(f"### Contribution of Each Year's Drought Occurrences to the Total Number of Droughts")
 
     fig = px.pie(df, values="Percentage", names="Year")
 
@@ -304,7 +304,7 @@ def page_third():
 
     ###############################################################
     
-    st.write(f"### Distribution of occurrences of each indicator across different countries")
+    st.write(f"### Geographical Distribution of Extreme Temperature Occurrences Among Various Countries")
     fig = px.choropleth(data_frame=df,
                     locations='Country',
                     locationmode='country names',
@@ -365,7 +365,7 @@ def page_third():
 
     df = pd.DataFrame({"Year": year_columns, "Percentage": percentages})
 
-    st.write(f"### Percentage Contribution of Each Year to the Total Number of Occurrences of the Indicator")
+    st.write(f"### Contribution of Each Year's Occurrences of Extreme Temperatures to the Total Number of Extreme Temperature Events")
 
     fig = px.pie(df, values="Percentage", names="Year")
 
@@ -403,7 +403,7 @@ def page_fourth():
 
     ###############################################################
 
-    st.write(f"### Distribution of occurrences of each indicator across different countries")
+    st.write(f"### Geographical Distribution of Flood Occurrences Among Various Countries")
     fig = px.choropleth(data_frame=df,
                         locations='Country',
                         locationmode='country names',
@@ -464,7 +464,7 @@ def page_fourth():
 
     df = pd.DataFrame({"Year": year_columns, "Percentage": percentages})
 
-    st.write(f"### Percentage Contribution of Each Year to the Total Number of Occurrences of the Indicator")
+    st.write(f"### Contribution of Each Year's Flood Occurrences to the Total Number of Floods")
 
     fig = px.pie(df, values="Percentage", names="Year")
 
@@ -502,7 +502,7 @@ def page_fifth():
 
     ###############################################################
 
-    st.write(f"### Distribution of occurrences of each indicator across different countries")
+    st.write(f"### Geographical Distribution of Landslide Occurrences Among Various Countries")
     fig = px.choropleth(data_frame=df,
                     locations='Country',
                     locationmode='country names',
@@ -563,7 +563,7 @@ def page_fifth():
 
     df = pd.DataFrame({"Year": year_columns, "Percentage": percentages})
 
-    st.write(f"### Percentage Contribution of Each Year to the Total Number of Occurrences of the Indicator")
+    st.write(f"### Contribution of Each Year's Landslide Occurrences to the Total Number of Landslides")
 
     fig = px.pie(df, values="Percentage", names="Year")
 
@@ -602,7 +602,7 @@ def page_sixth():
 
     ###############################################################
 
-    st.write(f"### Distribution of occurrences of each indicator across different countries")
+    st.write(f"### Geographical Distribution of Storm Occurrences Among Various Countries")
     fig = px.choropleth(data_frame=df,
                     locations='Country',
                     locationmode='country names',
@@ -663,7 +663,7 @@ def page_sixth():
 
     df = pd.DataFrame({"Year": year_columns, "Percentage": percentages})
 
-    st.write(f"### Percentage Contribution of Each Year to the Total Number of Occurrences of the Indicator")
+    st.write(f"### Contribution of Each Year's Storm Occurrences to the Total Number of Storms")
 
     fig = px.pie(df, values="Percentage", names="Year")
 
@@ -702,7 +702,7 @@ def page_seventh():
 
     ###############################################################
 
-    st.write(f"### Distribution of occurrences of each indicator across different countries")
+    st.write(f"### Geographical Distribution of Wildfire Occurrences Among Various Countries")
     fig = px.choropleth(data_frame=df,
                     locations='Country',
                     locationmode='country names',
@@ -763,7 +763,7 @@ def page_seventh():
 
     df = pd.DataFrame({"Year": year_columns, "Percentage": percentages})
 
-    st.write(f"### Percentage Contribution of Each Year to the Total Number of Occurrences of the Indicator")
+    st.write(f"### Contribution of Each Year's Wildfire Occurrences to the Total Number of Wildfires")
 
     fig = px.pie(df, values="Percentage", names="Year")
 
