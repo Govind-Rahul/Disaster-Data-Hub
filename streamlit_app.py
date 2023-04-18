@@ -365,7 +365,7 @@ def page_third():
 
     df = pd.DataFrame({"Year": year_columns, "Percentage": percentages})
 
-    st.write(f"### Contribution of Each Year's Occurrences of Extreme Temperatures to the Total Number of Extreme Temperature Events")
+    st.write(f"### Contribution of Each Year's Extreme Temperature Occurrences to the Total Number of Extreme Temperatures")
 
     fig = px.pie(df, values="Percentage", names="Year")
 
