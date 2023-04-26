@@ -1,11 +1,7 @@
-pycountry
 pandas
 altair
-seaborn
 streamlit
 plotly
-vega_datasets
-pmdarima
 matplotlib
 statsmodels
 
