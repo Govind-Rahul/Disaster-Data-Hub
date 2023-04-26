@@ -1,15 +1,9 @@
-import pycountry
 import pandas as pd
 import altair as alt
-import seaborn as sns
 import streamlit as st
 import plotly.express as px
-from vega_datasets import data
-from pmdarima import auto_arima
 import matplotlib.pyplot as plt
-import plotly.graph_objects as go
 from statsmodels.tsa.arima.model import ARIMA
-
 
 
 # With the use of Altair and Plotly charts in a Streamlit app, this code displays a collection of interactive visualizations for investigating data on worldwide disasters. Charts showing the quantity and types of catastrophes can be viewed by choosing a country, a year, or both. The visualizations offer a clear, engaging, and interactive method to comprehend patterns and occurrences in major global disasters.
