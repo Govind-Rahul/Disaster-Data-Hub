@@ -2,7 +2,7 @@
 
 **Project Title:** Disaster-Data-Hub
 
-**Project Group 4:**
+**Group Members:**
 
 Govind Rahul Mathamsetti, 
 Sawani Ingale, 
