@@ -5,9 +5,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 from statsmodels.tsa.arima.model import ARIMA
 
-
-# With the use of Altair and Plotly charts in a Streamlit app, this code displays a collection of interactive visualizations for investigating data on worldwide disasters. Charts showing the quantity and types of catastrophes can be viewed by choosing a country, a year, or both. The visualizations offer a clear, engaging, and interactive method to comprehend patterns and occurrences in major global disasters.
-
+# This code provides a selection of interactive visualizations for examining data on global disasters using Altair and Plotly charts in a Streamlit interface. By selecting a nation, a year, or both, you can explore graphs that indicate the number and different kinds of disasters. The visualizations provide a simple, entertaining, and interactive way to understand the patterns and events of significant global disasters.
 
 def page_all_disasters():
 
@@ -121,7 +119,7 @@ def page_all_disasters():
         st.write(df_cleaned)
 
     
-# In order to predict the likelihood of natural catastrophes in a chosen country and disaster type over the course of the following five years, this code implements an ARIMA model. A button is clicked to generate the forecast after the user chooses the country and kind of disaster from a selection menu. Using an Altair line chart, the predictions are shown.
+# This code implements an ARIMA model to forecast the probability of natural disasters in a certain country and disaster type over the next five years. The user selects the country and type of disaster from a menu before clicking a button to generate the forecast. The forecasts are displayed using an Altair line chart.
 
 
 def prediction():
@@ -168,8 +166,7 @@ def prediction():
         st.altair_chart(chart, use_container_width=True)
 
         
-# With the help of this code, you may explore drought data interactively, including the frequency and number of droughts by nation and year. In addition to viewing a bar chart of frequency through time, users may also explore additional charts like a choropleth map, a bubble chart, and a pie chart by choosing countries from a dropdown menu. An accessible way to comprehend patterns and trends in drought data is made available by these visuals.
-
+# This code enables interactive exploration of drought data, such as the frequency and number of droughts by country and year. Users can explore various charts including a choropleth map, a bubble chart, and a pie chart by selecting countries from a dropdown menu in addition to viewing a bar chart showing frequency through time. These visualizations offer a simple means to understand patterns and trends in drought data.
 
 def page_second():
 
@@ -267,7 +264,7 @@ def page_second():
     st.plotly_chart(fig)
     
     
-# This code offers a collection of interactive visualizations for investigating data on severe temperatures, including the frequency and count of extreme temperatures by nation and year. Users can choose nations from a dropdown menu to view a bar chart showing frequency through time and can also explore additional charts including a choropleth map, a bubble chart, and a pie chart. The patterns and trends in the data on severe temperatures can be easily understood using these graphics.
+# This code provides several interactive visualizations for examining data on extreme temperatures, such as the frequency and count of extreme temperatures by country and year. Users can select a country from a dropdown menu to view a bar chart that shows frequency over time. They can also explore other charts, such as a pie chart, a choropleth map, and bubble charts. These illustrations make it simple to comprehend the patterns and trends in the data on extreme temperatures.
 
     
 def page_third():
@@ -366,7 +363,7 @@ def page_third():
     st.plotly_chart(fig)
     
 
-# This program defines the "page_fourth" function, which loads and displays flood statistics by nation. The frequency and number of floods in various nations are shown via interactive visualizations made with Plotly and Altair, such as bar charts and choropleth maps. Another feature of the function is a pie chart that displays the percentage contribution of each year to the overall frequency of the flood indicator events.
+# The "page_fourth" function in this application loads and shows flood statistics broken down by country. Interactive visualizations, such as bar charts and choropleth maps, created using Plotly and Altair, such as the frequency and number of floods in various countries. A pie chart that shows the percentage contribution of each year to the total frequency of the flood indicator occurrences is another element of the function.
 
 
 def page_fourth():
@@ -465,7 +462,7 @@ def page_fourth():
     st.plotly_chart(fig)
     
 
-# This website application's fifth page examines natural disasters. The program analyzes landslide data, creates charts showing the frequency of landslides by country and year, and uses a choropleth map to depict the distribution of landslide events among nations. Using pie charts, it also displays the total number of landslides by country and the percentage that each year contributes to the overall total.
+# The fifth page of this website application examines natural disasters. A choropleth map is used to display how frequently landslides occur in different countries and years, and the computer analyzes data on landslides to produce these maps. It also shows the total number of landslides by nation and the proportion that each year adds to the overall total using pie charts.
 
     
 def page_fifth():
@@ -564,7 +561,7 @@ def page_fifth():
     st.plotly_chart(fig)
 
     
-# The page_sixth function extracts information on storm frequency by nation from a CSV file and shows it in a number of charts. Users can browse storm frequency and count data by year while selecting one or more countries. The function also contains a chart displaying the percentage of total storms by country and a choropleth map of the storms' locations.
+# The page_sixth function pulls data on storm frequency by country from a CSV file and displays it in several charts. Users may browse statistics on storm frequency and count by year while choosing one or more nations. Along with a choropleth map showing the locations of the storms, the function also includes a chart showing the percentage of total storms per country.
 
     
 def page_sixth():
@@ -664,7 +661,7 @@ def page_sixth():
     st.plotly_chart(fig)
     
 
-# The program loads a dataset on wildfire occurrences and displays charts showing how frequently they occur and where they occur geographically. The code also shows the percentage of total wildfires by nation and the percentage contribution of each year to the overall number of occurrences. Users can pick countries and view the wildfire counts by year. Each form of natural disaster (flood, landslide, and storm) has a unique set of graphics, and the code is repeated for each.
+# The application loads a dataset on wildfire occurrences and shows graphs illustrating their frequency and geographic distribution. The code also displays the proportion of all wildfires by country and the percentage contribution of each year to the overall number of occurrences. Users can select a country and view the wildfire counts by year. The code is repeated for each type of natural disaster (flood, landslide, and storm), each of which includes a different set of visuals.
 
     
 def page_seventh():
