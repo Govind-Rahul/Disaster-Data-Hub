@@ -21,7 +21,7 @@ Vineeth Avula
 
 **Step 3:** Before running the application make sure that you have installed all the packages mentioned in the requirements.txt file, you can install the             packages using pip install package_name.
 
-**Step 4:** In your command prompt navigate to the directory where you have downloaded the folder and then run **cd Disaster-Data-Hub**
+**Step 4:** In your command prompt navigate to the directory where you have downloaded the folder and then run **cd Disaster-Data-Hub-main**
 
 **Step 5:** Run the command **streamlit run streamlit_app.py**
 
